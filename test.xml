@@ -4,17 +4,14 @@
   <head>
     <meta expr:content='data:blog.isMobile         ? &quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0&quot;         : &quot;width=1100&quot;' name='viewport'/>
     <b:include data='blog' name='all-head-content'/>
+    <link href='https://raw.githubusercontent.com/shashikg/custom-blogger-template/master/style.css' rel='stylesheet' type='text/css'/>
     <title><data:blog.pageTitle/></title>
 
-    <b:skin><![CDATA[/*
------------------------------------------------
-Blogger Template Style
-Name:     Simple
-Designer: Blogger
-URL:      www.blogger.com
------------------------------------------------ */
-]]></b:skin>
-  <link id='page-skin-1' type="text/css" href="https://raw.githubusercontent.com/shashikg/custom-blogger-template/master/style.css" />
+    <b:skin>
+    </b:skin>
+<!-- <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/shashikg/custom-blogger-template/master/style.css" /> -->
+
+  <!-- <link rel='stylesheet' id='page-skin-1' type="text/css" href="https://raw.githubusercontent.com/shashikg/custom-blogger-template/master/style.css" /> -->
     <b:template-skin>
       <b:variable default='960px' name='content.width' type='length' value='930px'/>
       <b:variable default='0' name='main.column.left.width' type='length' value='180px'/>
