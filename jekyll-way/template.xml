@@ -59,5 +59,5 @@ layout: default
       </macro:if>
     </macro:if>
   </macro:includable>
-  <b:section-contents id='sidebar-left-1'/><b:section-contents id='sidebar-right-1'/><b:section-contents id='footer-1'/><b:section-contents id='footer-2-1'/><b:section-contents id='footer-2-2'/>
+  
 </html>
