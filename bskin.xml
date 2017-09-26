@@ -1,4 +1,4 @@
-<b:skin><![CDATA[/*
+/*
 -----------------------------------------------
 Blogger Template Style
 Name:     Simple
@@ -570,4 +570,3 @@ border-bottom: $(tabs.border.width) solid $(tabs.border.color);
 .mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
 border-$startSide: 1px solid $(tabs.border.color);
 }
-]]></b:skin>
