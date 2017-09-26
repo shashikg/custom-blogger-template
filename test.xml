@@ -7,7 +7,7 @@
     <title><data:blog.pageTitle/></title>
 
     <b:skin><![CDATA[
-      <link href="mylayout.css" />
+      <link href="style.css" />
       ]]>
     </b:skin>
 
