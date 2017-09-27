@@ -53,8 +53,37 @@ th, td{
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.widget-content {
-  padding: 12px;
+.widget > .widget-content {
+  color: rgba(0,0,0,.54);
+  font-size: 1rem;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 16px;
+  width: 90%;
+}
+
+.widget > h2{
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  display: block;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  line-height: normal;
+  padding: 16px;
+  -webkit-perspective-origin: 165px 56px;
+  perspective-origin: 165px 56px;
+  -webkit-transform-origin: 165px 56px;
+  transform-origin: 165px 56px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #25b099;
+  font-weight: bold;
 }
 
 .post-card.mdl-card {
