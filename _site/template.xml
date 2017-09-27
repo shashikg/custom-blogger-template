@@ -91,7 +91,7 @@ By Shashi Kant
 
         <b:widget id='AdSense0' locked='false' title='' type='AdSense'>
           <b:includable id='main'>
-            <div class="post-card mdl-card" style="margin-bottom: 20px;">
+            <div class="post-card mdl-card adsensec" style="margin-bottom: 20px;">
               <data:adCode/>
               <b:include name='quickedit'/>
             </div>
@@ -187,7 +187,7 @@ By Shashi Kant
 
         <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
           <b:includable id='main'>
-            <div class="post-card mdl-card">
+            <div class="post-card mdl-card adsensec">
               <data:adCode/>
               <b:include name='quickedit'/>
             </div>
