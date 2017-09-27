@@ -46,10 +46,10 @@ By Shashi Kant
 
   <div class="header mdl-layout__header mdl-layout__header--waterfall mdl-layout--no-desktop-drawer-button">
   <div class="mdl-layout__header-row layout-header">
-    <span class="title mdl-layout-title">
+    <span class="title mdl-layout-title" style="color: rgb(135,135,135);">
       <data:blog.title/>
     </span>
-    <span class="mobile-title mdl-layout-title">
+    <span class="mobile-title mdl-layout-title" style="color: rgb(135,135,135);">
       <data:blog.title/>
     </span>
 
@@ -67,7 +67,7 @@ By Shashi Kant
 </div>
 
 <div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">
+  <span class="mdl-layout-title" style="color: rgb(135,135,135);">
     <data:blog.title/>
   </span>
   <nav class="drawer mdl-navigation">
@@ -88,6 +88,16 @@ By Shashi Kant
 
     <div class="post-content post-grid mdl-cell mdl-cell--1-offset-desktop mdl-cell--0-offset-tablet mdl-cell--7-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
       <b:section class='main' id='main' name='Main' showaddelement='no'>
+
+        <b:widget id='AdSense0' locked='false' title='' type='AdSense'>
+          <b:includable id='main'>
+            <div class="post-card mdl-card" style="margin-bottom: 20px;">
+              <data:adCode/>
+              <b:include name='quickedit'/>
+            </div>
+          </b:includable>
+        </b:widget>
+
         <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
           <b:includable id='main' var='top'>
 
@@ -174,6 +184,16 @@ By Shashi Kant
 
           </b:includable>
         </b:widget>
+
+        <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
+          <b:includable id='main'>
+            <div class="post-card mdl-card">
+              <data:adCode/>
+              <b:include name='quickedit'/>
+            </div>
+          </b:includable>
+        </b:widget>
+
       </b:section>
     </div>
 
