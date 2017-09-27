@@ -61,10 +61,18 @@ th, td{
   overflow: hidden;
   padding: 16px;
   width: 90%;
-  background-color: white;
+  /*background-color: white;*/
 }
 
 .right-sidebar > .widget > h2{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  overflow: hidden;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -78,6 +86,7 @@ th, td{
   justify-content: stretch;
   line-height: normal;
   padding: 16px;
+  margin: 0;
   -webkit-perspective-origin: 165px 56px;
   perspective-origin: 165px 56px;
   -webkit-transform-origin: 165px 56px;
