@@ -90,6 +90,7 @@ a img{
 
 .mobile-title {
   display: none !important;
+  color: #f3f3f3;
 }
 
 .logo-image {
@@ -299,12 +300,14 @@ a img{
 
   .title {
     display: none !important;
+    color: #f3f3f3;
   }
 
   .mobile-title {
     display: block !important;
     position: absolute;
     left: calc(50% - 70px);
+    color: #f3f3f3;
     /*top: 12px;*/
     left: 50px;
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);

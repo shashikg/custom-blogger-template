@@ -86,7 +86,7 @@ By Shashi Kant
 <div class="post-section mdl-typography--text-justify">
   <div class="post-grid mdl-grid">
 
-    <div class="post-content post-grid mdl-cell mdl-cell--2-offset-desktop mdl-cell--0-offset-tablet mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+    <div class="post-content post-grid mdl-cell mdl-cell--1-offset-desktop mdl-cell--0-offset-tablet mdl-cell--7-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
       <b:section class='main' id='main' name='Main' showaddelement='no'>
         <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
           <b:includable id='main' var='top'>
@@ -177,7 +177,7 @@ By Shashi Kant
       </b:section>
     </div>
 
-    <div class="post-content post-grid mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+    <div class="post-content post-grid mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
       <b:section id='right-sidebar' class="right-sidebar" showaddelement="yes">
       </b:section>
     </div>
