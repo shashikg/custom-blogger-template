@@ -49,13 +49,7 @@ th, td{
 
 .adsensec {
   overflow: hidden;
-  padding-top: 16px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
+  height: auto;
 }
 
 .right-sidebar > .widget {
