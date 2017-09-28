@@ -14,7 +14,7 @@ td, th{text-align:left;}
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 .run {
- font: 40px monospace;
+ font: xx-large monospace;
  /*padding-top: 5vw;*/
  color: #f3f3f3;
  border-right: .1em solid #848484;
@@ -26,9 +26,10 @@ td, th{text-align:left;}
             blink-caret .5s step-end infinite alternate;
 }
 .run1 {
- font: 30px monospace;
+  margin-top: 40px;
+ font: x-large monospace;
  color: #f3f3f3;
- line-height: 60px;
+ line-height: 30px;
 }
 
 table{
@@ -47,16 +48,18 @@ th, td{
 }
 
 .img-cont{
-  width: 15vw;
+  width: 100%;
   height: 15vw;
   padding-top: 4.7vw;
   /*padding-left: 5vw;*/
 }
 
 .abt-cont{
-  width: 15vw;
-  height: 15vw;
-  padding-top: 4.7vw;
+  width: 80%;
+  height: 90%;
+  padding-top: 10%;
+
+  /*margin: auto;*/
   /*padding-left: 5vw;*/
 }
 
@@ -73,7 +76,7 @@ th, td{
 
 .hero-section {
   position: relative;
-  height: 25vw;
+  height: auto;
   width: 100%;
   /*background: url('https://blog.evernote.com/in/files/2016/05/Travel-Blog.jpg') center 50% no-repeat;*/
   background: #263238; /* For browsers that do not support gradients */
@@ -203,19 +206,5 @@ img {
 	.hero-section {
 	    height: auto;
 	}
-
-  /*.abt-cont {
-    height: auto;
-    width: auto;
-  }*/
-
-  .run {
-    font: 10px;
-  }
-
-  .run1 {
-    font: 5px;
-    line-height: 10px;
-  }
 
 }
