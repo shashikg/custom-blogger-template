@@ -23,19 +23,19 @@
   background-color: #25b099;
 }
 
-.hero-section {
+/*.hero-section {
   position: relative;
   height: 850px;
   width: auto;
   background-color: #f3f3f3;
   background: url('../assets/images/slide01.jpg') center 30% no-repeat;
   background-size: cover;
-}
+}*/
 
 .cmpt-section {
   position: relative;
   height: 550px;
-  
+
   background-color: #f3f3f3;
   background: url('../assets/images/cmpt-sec2.jpg') center no-repeat;
   background-size: cover;
@@ -70,7 +70,7 @@
 	position: relative;
 	height: auto;
 	width: auto;
-	background: #009688; /* For browsers that do not support gradients */        
+	background: #009688; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(-90deg, #009688, #263238); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(-90deg, #009688, #263238); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(-90deg, #009688, #263238); /* For Firefox 3.6 to 15 */
@@ -427,7 +427,7 @@
     animation-delay: 30s;
 }*/
 
-@-webkit-keyframes imageAnimation { 
+@-webkit-keyframes imageAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-animation-timing-function: ease-in;
@@ -447,7 +447,7 @@
 	}
 	200% { opacity: 0 }
 }
-@-moz-keyframes imageAnimation { 
+@-moz-keyframes imageAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-animation-timing-function: ease-in;
@@ -467,7 +467,7 @@
 	}
 	200% { opacity: 0 }
 }
-@-o-keyframes imageAnimation { 
+@-o-keyframes imageAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-animation-timing-function: ease-in;
@@ -487,7 +487,7 @@
 	}
 	200% { opacity: 0 }
 }
-@-ms-keyframes imageAnimation { 
+@-ms-keyframes imageAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-animation-timing-function: ease-in;
@@ -507,7 +507,7 @@
 	}
 	200% { opacity: 0 }
 }
-@keyframes imageAnimation { 
+@keyframes imageAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-animation-timing-function: ease-in;
@@ -527,7 +527,7 @@
 	}
 	200% { opacity: 0 }
 }
-@-webkit-keyframes titleAnimation { 
+@-webkit-keyframes titleAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-transform: translateX(200px);
@@ -551,7 +551,7 @@
 	50% { opacity: 0 }
 	200% { opacity: 0 }
 }
-@-moz-keyframes titleAnimation { 
+@-moz-keyframes titleAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-transform: translateX(200px);
@@ -575,7 +575,7 @@
 	50% { opacity: 0 }
 	200% { opacity: 0 }
 }
-@-o-keyframes titleAnimation { 
+@-o-keyframes titleAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-transform: translateX(200px);
@@ -599,7 +599,7 @@
 	50% { opacity: 0 }
 	200% { opacity: 0 }
 }
-@-ms-keyframes titleAnimation { 
+@-ms-keyframes titleAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-transform: translateX(200px);
@@ -623,7 +623,7 @@
 	50% { opacity: 0 }
 	200% { opacity: 0 }
 }
-@keyframes titleAnimation { 
+@keyframes titleAnimation {
 	0% {
 	    opacity: 0;
 	    -webkit-transform: translateX(200px);
@@ -651,13 +651,12 @@
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }
-@media screen and (max-width: 1140px) { 
+@media screen and (max-width: 1140px) {
 	.cb-slideshow li div h3 { font-size: 100px }
 }
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
 	.ss-container {
 		height: 250px;
 	}
 	.cb-slideshow li div a { font-size: 30px }
 }
-

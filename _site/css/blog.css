@@ -27,9 +27,9 @@ th, td{
 
 .hero-section {
   position: relative;
-  height: 30vw;
+  height: 25vw;
   width: 100%;
-  background: url('../assets/images/blog-hero.png') center 50% no-repeat;
+  background: url('https://blog.evernote.com/in/files/2016/05/Travel-Blog.jpg') center 50% no-repeat;
   background-color: #25b099;
   background-size: cover;
 }
