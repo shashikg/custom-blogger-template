@@ -81,7 +81,27 @@ By Shashi Kant
   <div class="mdl-layout__content">
 
     <a name="top"></a>
-<div class="hero-section "></div>
+<div class="hero-section ">
+  <div class="mdl-typography--text-justify">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--0-offset-tablet mdl-cell--10-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+        <div class="mdl-grid" style="margin:0; padding:0;">
+          <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone" style="margin:0; padding:0;">
+            <div class="img-cont">
+              <div class="img-circular" style="background-image: url('https://shashikg.github.io/custom-blogger-template/assets/sd.jpg');"></div>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet mdl-cell--4-col-phone" style="margin:0; padding:0;">
+            <div class="abt-cont">
+              <h2 class="run">Hello am Shashi! Welcome to My Blog!</h2>
+              <h3 class="run1">EE Sophomore at IIT Kanpur. I love to do programming, pencil sketching, play badminton, study physics, reading novels.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="post-section mdl-typography--text-justify">
   <div class="post-grid mdl-grid">

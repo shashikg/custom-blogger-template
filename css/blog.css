@@ -10,6 +10,26 @@ td{position:relative;height:48px;border-top:1px solid rgba(0,0,0,.12);border-bot
 th{position:relative;vertical-align:bottom;font-weight:700;line-height:24px;letter-spacing:0;height:48px;font-size:12px;color:rgba(0,0,0,.54);padding-bottom:8px;box-sizing:border-box}
 td, th{text-align:left;}
 
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.run {
+ font: 3.5em monospace;
+ color: #f3f3f3;
+ border-right: .1em solid #848484;
+ 	/*width: calc(0.55em * 14);  */
+ width: 36ch;
+ white-space: nowrap;
+ overflow: hidden;
+ -webkit-animation: typing 3s steps(36, end),
+            blink-caret .5s step-end infinite alternate;
+}
+.run1 {
+ font: 2em monospace;
+ color: #f3f3f3;
+ line-height: 1.5em;
+}
+
 table{
     width: 100%;
     table-layout: fixed;
@@ -25,16 +45,41 @@ th, td{
 .drawer .nav-blog {
 }
 
+.img-cont{
+  width: 15vw;
+  height: 15vw;
+  padding-top: 4.7vw;
+  /*padding-left: 5vw;*/
+}
+
+.abt-cont{
+  /*width: 15vw;*/
+  height: 15vw;
+  padding-top: 4.7vw;
+  /*padding-left: 5vw;*/
+}
+
+.img-circular{
+ width: 90%;
+ height: 90%;
+ background-size: cover;
+ display: block;
+ border: 5px double white;
+ border-radius: 45%;
+ -webkit-border-radius: 45%;
+ -moz-border-radius: 45%;
+}
+
 .hero-section {
   position: relative;
   height: 25vw;
   width: 100%;
   /*background: url('https://blog.evernote.com/in/files/2016/05/Travel-Blog.jpg') center 50% no-repeat;*/
   background: #263238; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #004D40, #263238); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #004D40, #263238); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #004D40, #263238); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #004D40, #263238); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(-135deg, #004D40, #263238); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-135deg, #004D40, #263238); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-135deg, #004D40, #263238); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-135deg, #004D40, #263238); /* Standard syntax (must be last) */
   background-size: cover;
 }
 
