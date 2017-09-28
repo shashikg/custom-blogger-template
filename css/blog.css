@@ -14,7 +14,8 @@ td, th{text-align:left;}
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 .run {
- font: 3.5em monospace;
+ font: 40px monospace;
+ /*padding-top: 5vw;*/
  color: #f3f3f3;
  border-right: .1em solid #848484;
  	/*width: calc(0.55em * 14);  */
@@ -25,9 +26,9 @@ td, th{text-align:left;}
             blink-caret .5s step-end infinite alternate;
 }
 .run1 {
- font: 2em monospace;
+ font: 30px monospace;
  color: #f3f3f3;
- line-height: 1.5em;
+ line-height: 60px;
 }
 
 table{
@@ -53,7 +54,7 @@ th, td{
 }
 
 .abt-cont{
-  /*width: 15vw;*/
+  width: 15vw;
   height: 15vw;
   padding-top: 4.7vw;
   /*padding-left: 5vw;*/
@@ -202,5 +203,19 @@ img {
 	.hero-section {
 	    height: 350px;
 	}
+
+  .abt-cont {
+    height: auto;
+    width: auto;
+  }
+
+  .run {
+    font: 20px;
+  }
+
+  .run1 {
+    font: 15px;
+    line-height: 30px;
+  }
 
 }
