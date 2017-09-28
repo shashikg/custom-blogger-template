@@ -201,21 +201,21 @@ img {
 @media (max-width: 900px) {
 
 	.hero-section {
-	    height: 350px;
+	    height: auto;
 	}
 
-  .abt-cont {
+  /*.abt-cont {
     height: auto;
     width: auto;
-  }
+  }*/
 
   .run {
-    font: 20px;
+    font: 10px;
   }
 
   .run1 {
-    font: 15px;
-    line-height: 30px;
+    font: 5px;
+    line-height: 10px;
   }
 
 }

@@ -88,8 +88,8 @@ By Shashi Kant
         <div class="mdl-grid" style="margin:0; padding:0;">
           <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
             <div class="abt-cont">
-            <div class="img-circular" style="background-image: url('https://shashikg.github.io/custom-blogger-template/assets/sd.jpg');"></div>
-          </div>
+              <div class="img-circular" style="background-image: url('https://shashikg.github.io/custom-blogger-template/assets/sd.jpg');"></div>
+            </div>
           </div>
           <div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
             <div style="padding-top: 5vw;">
